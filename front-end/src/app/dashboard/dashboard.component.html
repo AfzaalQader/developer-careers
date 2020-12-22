@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="">
+        <div class="card">
+            <div class="card-header bg-success">
+                {{title}}
+            </div>
+            <div class="card-body">
+                <div *ngIf='topicMetadata.length > 0' class="row">
+                            <div class="card-body" [innerHTML]="jsonObjNew">
+                                
+                            </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="">
+                        <div class="card">
+                            <div class="card-header bg-primary">
+                                This is Subheader
+                            </div>
+                            <div class="card-body" [innerHTML]="jsonObjNew"> 
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+       
+    </div>
+</div> 
